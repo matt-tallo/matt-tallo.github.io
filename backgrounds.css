@@ -1,0 +1,13 @@
+body{
+
+    background-image:  url(/images/Hot_dog_with_mustard.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+p{background: linear-gradient(to right, antiquewhite, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
