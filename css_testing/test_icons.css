@@ -1,0 +1,19 @@
+.fa-twitter{
+    color:aqua;
+}
+
+.fa-youtube{
+    color:red;
+}
+
+.fa-linkedin{
+    color:blue
+}
+
+.fa-linkedin:hover{
+    color: aqua;
+}
+
+a{
+    text-decoration: none;
+}

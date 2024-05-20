@@ -1,0 +1,53 @@
+#box1{
+    width: 250px;
+    height: 250px;
+    background: red;
+    font-size: 225px;
+    text-align: center;
+
+    /*
+    animation: mySlide;
+    animation-play-state: running;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 2;
+    animation-duration: 5s;
+    */
+    
+}
+
+#box1:active{
+    animation: 3s linear 0s infinite running mySlide;
+}
+
+#box1:hover{
+    /*animation: 3s linear 0s infinite running myRotate;*/
+    /* animation: 3s linear 0s infinite running myOpacity; */
+    animation: 3s linear 0s infinite running myColor;
+    
+}
+
+@keyframes mySlide{
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+}
+
+@keyframes myRotate{
+    100%{transform: rotateX(360deg)};
+}
+
+@keyframes myOpacity{
+    50%{opacity: 0;}
+}
+
+@keyframes myScale {
+    50%{transform: scale(.4,.4);}
+}
+
+@keyframes myColor{
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: blue;}
+    60%{background-color: green;}
+    100%{background-color: purple;}
+}
